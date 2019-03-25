@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60bbf16c-2623-4326-91a5-0c5a1ab1199c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BankAppV2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankAppV2/bankAppV2/bankMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BankAppV2/bankAppV2/bankScanner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bankAppV2/bankMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bankAppV2/bankScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -164,12 +156,12 @@
       <option name="presentableId" value="Default" />
       <updated>1553470552339</updated>
       <workItem from="1553470555626" duration="3236000" />
-      <workItem from="1553503591236" duration="523000" />
+      <workItem from="1553503591236" duration="1003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3544000" />
+    <option name="totallyTimeSpent" value="4239000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -220,7 +212,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bankAppV2/bankMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
+        <state relative-caret-position="37">
           <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
         </state>
       </provider>
