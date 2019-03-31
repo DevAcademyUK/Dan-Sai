@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<style>
+  .carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  #slideT {
+
+    border: 1px solid #CCC;
+    border-radius: ;
+  }
+</style>
+
+
+
+
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<!-- Sliding Full-page -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Blockpedia</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Subscribe</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">FAQ</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <!-- Slide One - Set the background image for this slide in the line below -->
+      <div class="carousel-item active" style="background-image: url('https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940/1920x1080')">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="display-4" id="slideT" style="background-color:black">The 8 Emerging Technologies you should learn to love</h2>
+          <p class="lead">By Warren Tucker</p>
+        </div>
+      </div>
+      <!-- Slide Two - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('https://images.pexels.com/photos/1305360/pexels-photo-1305360.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500/1920x1080')">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="display-4" id="slideT" style="background-color:black">Twenty Tips For Startup Success</h2>
+          <p class="lead">By Mary Juetton</p>
+        </div>
+      </div>
+      <!-- Slide Three - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('https://images.pexels.com/photos/825262/pexels-photo-825262.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500/1920x1080')">
+        <div class="carousel-caption d-none d-md-block">
+          <h2 class="display-4" id="slideT" style="background-color:black">New material pushes silicon-based electronics to new boundaries</h2>
+          <p class="lead">by Fraunhofer Institute for Applied Solid State Physics IAF</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</header>
+
+<!-- Page Content -->
+<section class="py-5">
+  <div class="container">
+    <h1 class="display-4">Hello and Welcome :)</h1>
+    <p class="lead"></p>
+  </div>
+</section>
+
+<!-- Article 1 -->
+
+<div class="jumbotron">
+  <h1>The eight emerging technologies you should learn to love</h1>
+  <p>Warren Tucker Partner, PwC United Kingdom</p>
+</div>
+
+<div class="container">
+  <h2>Artificial Intelligence</h2>
+  <p>AI is a set of software services that are taking machine ‘intelligence’ beyond the realm of beating the best human players at chess or Go, to solving real business problems. AI solutions exhibit the ability to: learn and store knowledge;
+    undertake analysis; identify patterns and make recommendations; sense and interpret the external world; and interact using natural language. We believe AI will ultimately underpin how all businesses interact with each other and with their
+    customers.
+    Examples we see around us include face recognition at passport control, financial fraud detection, virtual assistants on your smartphone or via devices in your home, messaging chatbots on social media, content recommendations for our video
+    streaming services and increasingly driver support in vehicles.</p> <br>
+
+  <h2>Robots</h2>
+  <p>Manufacturing firms have been using them on their assembly lines for many years, but robots are starting to enter the white-collar workplace, in both physical and virtual form. Humanoid robots are being trialed on cruise ships, care homes (in
+    Japan) and at visitor attractions; software robots on the other hand could enter the workforce in more prosaic roles such as handling basic customer service queries in a UK local authority contact centre, to back-office process automation in a
+    bank.</p> <br>
+
+  <h2>Drones</h2>
+  <p>We’ve heard a lot recently about Amazon and Google using drones to deliver parcels, and although there are reasonable concerns around safety, especially in built-up areas, wider applications are being considered. In sectors such as construction
+    or utilities, with large sites and assets to manage, equipping drones with pattern recognition technology to help identify locations that may require closer human inspection is just one potential application. Oil and gas firms have also exploited
+    drone technology to check, for example, remote pipeline networks. This reduces the need for engineers to manually check these locations and can increase the frequency of checking.</p><br>
+
+  <h2>Virtual Reality</h2>
+  <p>Fully immersive and increasingly realistic, VR’s most obvious applications are in entertainment and gaming (and some sports at the Rio Olympics were already broadcast in VR), but advances in technology have increased accessibility while reducing
+    development costs are starting to open up huge possibilities in fields as diverse as retail, healthcare, education, tourism, and journalism.</p> <br>
+
+  <h2>Augmented Reality</h2>
+  <p>Initially seen as something of a curiosity, AR devices overlay information, graphics or audio content to the user’s experience of their real-world environment, with sometimes dramatic impact. The recent Pokémon Go phenomenon drew attention to AR
+    but it has many applications beyond social gaming. Aircraft manufacturers, with hugely complex engineering projects are already piloting AR to help achieve increases in manufacturing accuracy, productivity and control. It can also enable trainees
+    to get “virtually hands-on” with complex moving equipment that would otherwise dangerous or inaccessible.</p><br>
+
+  <h2>Blockchain</h2>
+  <p>This technology has already made a name for itself as the technology behind the virtual currency, Bitcoin, but its significance goes beyond virtual currencies to traditional financial services and beyond. Offering unprecedented levels of
+    accuracy, traceability, reliability and security to any number of transactions and interactions, Blockchain offers the potential to cut costs too. The proof? The UK government is actively considering how it might be used in areas as diverse as
+    national identity schemes and healthcare. Some large financial institutions are also relying on blockchain for internal transactions between territories, effectively reducing the internal cost of moving money.</p> <br>
+
+  <h2>The "internet of things"</h2>
+  <p>While there is huge potential to link consumer appliances and devices to the web, the industrial internet of things offers even bigger potential for business: there could be several billion connected consumer devices in the next five years, but
+    the equivalent number for industrial machines will be in the hundreds of billions. Connecting physical assets to digital networks is generating vast amounts of data, enabling the potential for unprecedented levels of insight, prediction and
+    real-time control over production processes.The ability to track, measure and monitor in real-time also opens up new business models allowing for companies to offer almost “anything as a service”.</p><br>
+
+  <h2>3D Printing </h2>
+  <p>Established as a useful tool for prototyping, 3D printing offers an additive rather than reductive complement to mainstream manufacturing. It has been successfully used to support the manufacture of certain precision components and in some cases
+    develop finished products, for example hearing aids and dental braces. It has also been used internally within organisations to assist with design visualization. For example, a consumer goods firm can test a new packaging design in multiple
+    locations. Challenges remain around printing methods, the software for product design, and whether different materials can be combined for use in printing more complex organic and metallic and combined components. <br><br>
+
+    The technologies driving each of the 8 developments may be different, but they are increasingly being used in combination to do even more to save money and time, reduce errors, speed up processes, and – in several cases – replace or augment human
+    abilities. We believe that if designed well, many of these technologies will increase quality, reduce cost and ultimately drive up productivity (as almost every technology has before). They are unlikely to replace human ingenuity and imagination
+    and used intelligently, they will free up time and space for people to do what they do best
+
+  </p> <br>
+</div>
+
+
+<!-- Article 2 -->
+
+<div class="jumbotron">
+  <h1>Twenty Tips For Startup Success</h1>
+  <p>By Mary Juetton</p>
+</div>
+
+<div class="container">
+
+  <h4>Solve a real problem and meet real needs with your product </h4>
+  <p>You can have an invention or product that is creative and exciting and imaginative, but the most important measure of success is meeting a real need for the market that you’re trying to serve. The best companies are the ones that meet consumers’
+    needs and are able to adapt as those needs change. </p> <br>
+
+  <h4> Leadership is more than vision </h4>
+  <p> Being a leader for your team starts with the idea and direction that is foundational to your business, but success ultimately depends on drive. You set the example for the rest of the company with your attitude, work ethic, and determination.
+  </p> <br>
+
+  <h4> Put the right team in place </h4>
+  <p>The vision for your ultimate goal may be singularly yours, but you’ll need help to get there. In order to achieve your ultimate goals for your business, you’ll need to surround yourself with people who understand your vision and fit into the
+    culture and mindset of your company. </p> <br>
+
+  <h4> Find the mentors you need </h4>
+  <p> As you start to develop your business, you’ll want to have an advisory board in place to help offer advice and guidance to help you navigate the entrepreneurial labyrinth. Don’t be afraid to ask people to mentor you; often they are glad to be
+    asked and eager to help guide others as they were once guided by their own mentors. </p> <br>
+
+  <h4> Establish your culture as the foundation </h4>
+  <p> In the absence of direct guidance, it is the cultural ethos of a company that wins out in informing the decisions and work of those at your company. Your company culture should say not only who you are but who you aim to be. </p> <br>
+
+  <h4> Protect yourself with a business entity </h4>
+  <p> Paperwork might not seem important during the early days of your startup, but operating a business without a business entity in place can put your personal assets at risk. Unless you’re willing to risk everything you have to make your business
+    succeed, talk to a professional and set up a business entity to protect you and your family from potential ruin. </p> <br>
+
+  <h4> Have signed contracts </h4>
+  <p>Once again, paperwork might seem boring and unnecessary when you’re working out of your garage, but they can make or break your business. Every agreement you have should be formalized with a signed contract to protect both parties from future
+    legal fights, which are costly in terms of both time and money. </p> <br>
+
+  <h4> Treat your ideas carefully </h4>
+  <p> It’s a good habit to have to keep your ideas as close to the vest as possible and not to tell them to everyone who’ll listen, but ultimately you’ll have to talk about them if you hope to fundraise and grow your business. When talking about your
+    ideas in public, it’s smart to have everyone sign non-disclosure agreements (NDAs) to protect your sensitive information. </p> <br>
+
+  <h4> Protect your intellectual property </h4>
+  <p> From the outset of your business, your intellectual property (IP) is the most valuable asset you have. Identifying and protecting all the IP you create is crucial to the long term success and viability of your venture. </p> <br>
+
+  <h4> Plan for success and work towards that end </h4>
+  <p> Whatever your ultimate goal is for your business, have that in mind from the start and work towards that end. Things change and shift as time goes on and the unexpected arises, but having that goal in mind will help you plan and make decisions
+    towards achieving it. </p> <br>
+
+  <h4> Don’t be afraid of competition </h4>
+  <p> Being the only company is a particular market can be daunting, especially as you try to generate attention for the problem you’re looking to solve. But don’t let competition entering the space put you off; competition is proof that you’re onto
+    something, and can force you to focus and improve. </p> <br>
+
+  <h4> Develop a roadmap </h4>
+  <p> Laying out the critical path for your business can help you to go beyond a plan into goals you can act on, and will help avoid any unnecessary diversions and distractions. It may be hard work, but isn’t the success of your business worth it?
+  </p> <br>
+
+  <h4>Establish your expertise </h4>
+  <p> Part of the success of your business depends upon your reputation as an expert in the space that you’re working; after all, no one wants to buy something from someone who doesn't know what they’re talking about. Writing and speaking about your
+    particular area of expertise is a great way to get your name out there and establish your bona fides. </p> <br>
+
+  <h4> Create content </h4>
+  <p> Content is king in this age of the internet, and you want to get in on that with blogs, videos, podcasts, and any other content that allows you to get your name and ideas in front of potential customers. Clicks, views and engagement are the
+    currency of the realm, and the surest way to establish yourself as thought leaders on a subject. </p> <br>
+
+  <h4> Form relationships </h4>
+  <p> Success is predicated on who you know as much as what you do. But the key to good relationships is not making them one-sided; give as much as you get with helping others where you can, and you’ll develop a strong network of people you can rely
+    on. </p> <br>
+
+  <h4> Question everything </h4>
+  <p> Rejecting the status quo or conventional wisdom may seem scary, but it might also be necessary to get where you want to go with your business. Don’t be afraid to go against the grain, and to say no when necessary. </p> <br>
+
+  <h4> Start slow </h4>
+  <p> Early enthusiasm about your new business is great, but it is best tempered with some caution and prudence. It’s better to take a cautious approach to getting things right before rolling them out than to have your first impression to the world
+    be one with a buggy website or a product that isn’t quite ready for market. </p> <br>
+
+  <h4> Be patient when fundraising </h4>
+  <p> However you choose to raise money for your business, know that it can be a long and challenging process. It can be tempting to take the first offer that comes your way, but be sure that the offer is the right one, and that the money comes with
+    the right connections that can help to further your business. </p> <br>
+
+  <h4> Have fun </h4>
+  <p> All of the work you put into your business is ultimately pointless if you’re miserable every day on the job. Moreover, it makes for a difficult sales pitch to potential employees if the workplace environment is best described as “Dickensian.”
+    It’s alright to have fun on the job so long as the work is getting done; it’s certainly preferable to the notion of toiling away in a windowless room. </p> <br>
+
+  <h4> </h4>
+  <p> </p> <br>
+
+</div>
+
+
+
+
+<!-- Article 3 -->
+
+<div class="jumbotron">
+  <h1>New material to push the boundaries of silicon-based electronics</h1>
+  <p>By Fraunhofer Institute for Applied Solid State Physics IAF</p>
+</div>
+
+<div class="container">
+
+  <h2> Growing demand for silicon </h2>
+  <p>Three key factors are responsible for the strong growth of the electronics market: the automation and digitalization of the industry as well as the increasing awareness of ecological responsibility and sustainable processes. Power consumption
+    can only be lowered if electronic systems become more more energy- and resource-efficient the same time they become more powerful. <br><br>
+
+    Up to date, silicon dominates the electronics industry. With its relative low cost and an almost perfect crystal structure, silicon has become a particularly successful semiconductor material, also because its bandgap allows for both a good
+    charge carrier concentration and velocity as well as a good dielectric strength. However, silicon electronics gradually reaches its physical limit. Especially with regard to the required power density and compactness, silicon power electronic
+    components are insufficient.</p> <br>
+
+  <h2> Innovative Material Composition for More Power and Efficiency </h2>
+  <p>The limitations of silicon technology have already been overcome by the use of gallium nitride (GaN) as a semiconductor in power electronics. GaN performs better in conditions of high voltages, high temperatures and fast switching frequencies
+    compared to silicon. This goes hand in hand with significantly higher energy efficiency—with numerous energy-consuming applications, this means a significant reduction in energy consumption. Fraunhofer IAF has been researching GaN as a
+    semiconductor material for electronic components and systems for many years. With the help of industrial partners, the results of these research work has already been put to commercial use. The scientists of the project "Power Electronics 2020+"
+    will go even further in order to once more enhance the energy efficiency and durability of the next generation of electronic systems. For this purpose, a different and novel material will be used: scandium aluminum nitride (ScAlN).</p><br>
+
+  <h2> What is ScAlN?</h2>
+  <p>ScAlN is a piezoelectric semiconductor material with a high dielectric strength which is largely unexplored worldwide with regard of its usability in microelectronic applications. "The fact that scandium aluminum nitride is especially well
+    suited for power electronic components, due to its physical properties, has already been proven," explains Dr.-Ing. Michael Mikulla, project manager on the part of Fraunhofer IAF. The aim of the project is to grow lattice-matched ScAlN on a GaN
+    layer and to use the resulting heterostructures to process transistors with high current carrying capacity. "Functional semiconductor structures based on materials with a large bandgap, such as scandium aluminum nitride and gallium nitride, allow
+    for transistors with very high voltages and currents. These devices reach a higher power density per chip surface as well as higher switching speeds and higher operating temperatures. This is synonymous with lower switching losses, higher energy
+    efficiency and more compact systems," adds Prof. Dr. Oliver Ambacher, director of Fraunhofer IAF. "By combining both materials, GaN and ScAlN, we want to double the maximal possible output power of our devices while at the same time significantly
+    lowering the energy demand," says Mikulla.</p><br>
+
+
+</div>
+
+<div class="container-fixed">
+  <div>
+    <h3 style="background-color: #e0c6c1"> Trusted by ... </h3>
+  </div>
+
+  <div class="jumbotron" style=background-image:url("https://www.consultancy.uk/illustrations/news/detail/2018-07-13-115107651-The-top-UK-consulting-firms-for-finance_-risk-_-compliance.jpg")> </div> <div>
+    <p style="background-color: #e0c6c1"> © 2019 Blockpedia All Rights Reserved </p>
+  </div>
+
+</div>
+
+</html>
